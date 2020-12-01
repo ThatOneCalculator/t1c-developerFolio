@@ -9,14 +9,14 @@
   font-family: 'Fira Code Regular Nerd Font Complete Windows Compatible';
   font-style: normal;
   font-weight: normal;
-  src: local('Fira Code Regular Nerd Font Complete Windows Compatible'), url('./assets/fonts/Fira Code Regular Nerd Font Complete Windows Compatible.ttf') format('ttf');
+  src: local('Fira Code Regular Nerd Font Complete Windows Compatible'), url('./assets/fonts/Fira Code Regular Nerd Font Complete Windows Compatible.ttf') format('woff');
   font-display: swap;
 }
 code {
   font-family: 'Fira Code Regular Nerd Font Complete Windows Compatible';
   font-style: normal;
   font-weight: normal;
-  src: local('Fira Code Regular Nerd Font Complete Windows Compatible'), url('./assets/fonts/Fira Code Regular Nerd Font Complete Windows Compatible.ttf') format('ttf');
+  src: local('Fira Code Regular Nerd Font Complete Windows Compatible'), url('./assets/fonts/Fira Code Regular Nerd Font Complete Windows Compatible.ttf') format('woff');
   font-display: swap;
 }
 html,

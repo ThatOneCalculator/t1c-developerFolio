@@ -14,8 +14,11 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/thatonecalculator",
-  gmail: "kainoakanter@gmail.com",
-  twitter: "https://twitter.com/that1calculator"
+  gmail: "kainoa@t1c.dev",
+  twitter: "https://twitter.com/that1calculator",
+  discord: "https://discord.gg/mG94DqX",
+  twitch: "https://twitch.tv/thatonecalculator",
+  topgg: "https://top.gg/user/454847501787463680"
 };
 
 // Your Skills Section

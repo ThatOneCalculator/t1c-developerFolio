@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Agustina Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Agustina Regular'), url('./assets/fonts/Agustina.woff') format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Fira Code Regular Nerd Font Complete Windows Compatible';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Fira Code Regular Nerd Font Complete Windows Compatible'), url('./assets/fonts/Fira Code Regular Nerd Font Complete Windows Compatible.ttf') format('ttf');
+  font-display: swap;
+}
+code {
+  font-family: 'Fira Code Regular Nerd Font Complete Windows Compatible';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Fira Code Regular Nerd Font Complete Windows Compatible'), url('./assets/fonts/Fira Code Regular Nerd Font Complete Windows Compatible.ttf') format('ttf');
+  font-display: swap;
+}
+html,
+body {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font: 16px / 20px 'Fira Code Regular Nerd Font Complete Windows Compatible', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* Media Query */
+@media (max-width: 1380px) {
+  html,
+  body {
+    font-size: 16px;
+    line-height: normal;
+  }
+}

@@ -29,7 +29,7 @@ const skillsSection = {
     emoji("🤖  Develop bots on Discord, such as LiterallyNoBot"),
     emoji("👨‍💻 Design programs and CLI applications"),
 	emoji("🌹  Work on design projects like Rosé Pine"),
-    emoji("🐧 Use Arch Linux. That's a personality traight, right?")
+    emoji("🐧 Use Arch Linux. That's a personality trait, right?")
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon

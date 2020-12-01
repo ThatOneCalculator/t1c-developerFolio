@@ -71,7 +71,7 @@ https://fontawesome.com/icons?d=gallery */
     	fontAwesomeClassname: "fab fa-linux"
     },
     {
-    	skillName: "Discord API",
+    	skillName: "Discord Bots",
     	fontAwesomeClassname: "fab fa-discord"
     },
     {

@@ -2,10 +2,10 @@ import React from "react";
 import "./SocialMedia.css";
 import { socialMediaLinks } from "../../portfolio";
 
-export default function socialMedia() {
+export default function socialMedia() {  
   return (
     <div className="social-media-div">
-      
+
       {socialMediaLinks.github ? 
       (<a href={socialMediaLinks.github} className="icon-button github" target="_blank">
         <i className="fab fa-github"></i>
@@ -24,7 +24,7 @@ export default function socialMedia() {
 
       {socialMediaLinks.gmail ?
       <a href={`mailto:${socialMediaLinks.gmail}`} className="icon-button google" target="_blank">
-        <i className="fab fa-google"></i>
+        <i className="fas fa-envelope"></i>
         <span></span>
       </a>
       :
@@ -73,6 +73,30 @@ export default function socialMedia() {
       {socialMediaLinks.stackoverflow ? 
       (<a href={socialMediaLinks.stackoverflow} className="icon-button stack-overflow" target="_blank">
         <i className="fab fa-stack-overflow"></i>
+        <span></span>
+      </a>)
+      :
+      null}
+
+        	{socialMediaLinks.discord ? 
+      (<a href={socialMediaLinks.discord} className="icon-button discord" target="_blank">
+        <i className="fab fa-discord"></i>
+        <span></span>
+      </a>)
+      :
+      null}
+
+     {socialMediaLinks.twitch ? 
+      (<a href={socialMediaLinks.twitch} className="icon-button twitch" target="_blank">
+        <i className="fab fa-twitch"></i>
+        <span></span>
+      </a>)
+      :
+      null}
+
+      {socialMediaLinks.topgg ? 
+      (<a href={socialMediaLinks.topgg} className="icon-button topgg" target="_blank">
+        <i className="fas fa-robot"></i>
         <span></span>
       </a>)
       :

@@ -1,41 +1,37 @@
-﻿
-/* Change this file to get your personal Portfolio */
-
 // Your Summary And Greeting Section
 
 import emoji from "react-easy-emoji";
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
-  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
+  username: "ThatOneCalculator",
+  title: "Hi, I'm Kainoa Kanter, aka ThatOneCalculator!",
+  subTitle: emoji("A 17 year old fullstack developer from Cali!"),
   resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
 };
 
 // Your Social Media Link
 
 const socialMediaLinks = {
-
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta"
-  // Instagram and Twitter are also supported in the links!
+  github: "https://github.com/thatonecalculator",
+  gmail: "kainoa@t1c.dev",
+  twitter: "https://twitter.com/that1calculator",
+  discord: "https://discord.gg/mG94DqX",
+  twitch: "https://twitch.tv/thatonecalculator",
+  topgg: "https://top.gg/user/454847501787463680",
+  aur: "https://aur.archlinux.org/account/That1Calculator"
 };
 
 // Your Skills Section
 
 const skillsSection = {
-  title: "What i do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "What I do",
+  subTitle: "",
   skills: [
-    emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
+    emoji("🤖  Develop bots on Discord, such as LiterallyNoBot"),
+    emoji("👨‍💻 Design programs and CLI applications"),
+	emoji("🌹  Work on design projects like Rosé Pine"),
+    emoji("🐧 Use Arch Linux. That's a personality trait, right?")
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -43,56 +39,72 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+    	skillName: "C & C++",
+    	fontAwesomeClassname: "fab fa-cuttlefish"
+    },
+    {
+      skillName: "Javascript",
+      fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "Haxe",
+      fontAwesomeClassname: "fas fa-expand-arrows-alt"
+    },
+    {
+      skillName: "SQL",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+    	skillName: "Bash/Shell",
+    	fontAwesomeClassname: "fas fa-terminal"
+    },
+    {
+    	skillName: "Git",
+    	fontAwesomeClassname: "fab fa-git"
+    },
+    {
+    	skillName: "Linux",
+    	fontAwesomeClassname: "fab fa-linux"
+    },
+    {
+    	skillName: "Discord Bots",
+    	fontAwesomeClassname: "fab fa-discord"
+    },
+    {
+    	skillName: "Web Dev",
+    	fontAwesomeClassname: "fab fa-html5"
+    },
+    {
+      skillName: "Servers",
+      fontAwesomeClassname: "fas fa-server"
+    },
+    {
+    	skillName: "Machine Learning",
+    	fontAwesomeClassname: "fas fa-brain"
+    },
+    {
+    	skillName: "Classical Piano",
+    	fontAwesomeClassname: "fas fa-music"
+    },
+    {
+    	skillName: "Photography",
+    	fontAwesomeClassname: "fas fa-camera-retro"
+    },
+    {
+    	skillName: "Twitch Streaming",
+    	fontAwesomeClassname: "fab fa-twitch"
+    },
+    {
+    	skillName: "Build Computers",
+    	fontAwesomeClassname: "fas fa-desktop"
     }
   ]
 };
@@ -103,24 +115,14 @@ const educationInfo = {
   viewEducation: true, // Set it to true to see education section
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Palisades Charter High School",
+      logo: require("./assets/images/paliLogo.png"),
+      duration: "Class of 2021",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      	"Recieved black ribbon for Computer Science",
+        "3.5 weighted GPA",
+        "On the Academic Decathalon team",
+        "Mostly self-taught in terms of programming"
       ]
     }
   ]
@@ -132,50 +134,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design",  //Insert stack or technology you have experience in
+      Stack: "Traditional Programming",  //Insert stack or technology you have experience in
       progressPercentage: "90%"  //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
-    },
-    {
-      Stack: "Programming",
       progressPercentage: "60%"
-    }
-  ]
-};
-
-
-// Your top 3 work experiences
-
-const workExperiences = {
-  viewExperiences: true, //Set it to true to show workExperiences Section
-  experience: [
-    {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      Stack: "Frontend",
+      progressPercentage: "30%"
     },
   ]
 };
@@ -185,7 +153,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "saadpasta", // Change to your github username to view your profile in Contact Section.
+  githubUserName: "thatonecalculator", // Change to your github username to view your profile in Contact Section.
   showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false
 };
 
@@ -194,52 +162,51 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "What I'm mostly known for online!",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      link: "http://saayahealth.com/"
+      image: "https://cdn.discordapp.com/attachments/671117418189422594/782503006649712640/ezgif-7-fe73570e1200.png",
+      link: "https://top.gg/bot/646156214237003777"
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      link: "http://nextu.se/"
+      image: "https://cdn.discordapp.com/attachments/767172954395639811/782465215937118258/ezgif-7-baa8a1c8af25.png",
+      link: "https://github.com/rose-pine"
+    },
+    {
+    	image: "https://i.imgur.com/Uu62Ylu.png",
+    	link: "https://github.com/thatonecalculator/nerdfetch"
     }
+    
   ]
 };
 
 // Your Achievement Section Include Your Certification Talks and More
 
+Array.prototype.sample = function(){
+  return this[Math.floor(Math.random()*this.length)];
+}
+
 const achievementSection = {
 
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle: "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
-
+  title: emoji("My non-coding activities"),
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle: "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+      title: "Photography",
+      subtitle: "I've always had a passion for photography, and was one of the twelve selected for advanced photography in Palisades Charter High School out of hundreds of applicants.",
+      image: "https://github.com/rose-pine/wallpapers/blob/main/" + ["flower", "beachhouses", "pointoverhead", "roses", "rocks", "seals", "seaslug", "field"].sample() + ".jpg?raw=true",
       footerLink: [
-        { name: "Certification", url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" },
-        { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
-        { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
+        { name: "Rosé Pine collection", url: "https://github.com/rose-pine/wallpapers" },
+        { name: "AP Collection (soon)", url: "" },
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle: "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      footerLink: [{ name: "View Google Assistant Action", url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en" }]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "Piano",
+      subtitle: "I've played classical piano at the Colburn School for eleven years, and have performed in multiple Friday Night recitals.",
+      image: "https://i.imgur.com/GYWeHih.png",
       footerLink: [
-        { name: "Certification", url: "" },
-        { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
-      ]
+      	{ name: "Latest Performance", url: "https://www.youtube.com/watch?v=fiE74l_WR5U" },
+      	{ name: "Historic Playlist", url: "https://www.youtube.com/watch?v=fiE74l_WR5U&list=PLhg_k114J3a3Mqa9toAbYnqMc4nyBxOK0" }
+      	]
     }
   ]
 };
@@ -247,7 +214,6 @@ const achievementSection = {
 // Blogs Section
 
 const blogSection = {
-
   title: "Blogs",
   subtitle: "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
 
@@ -281,6 +247,14 @@ const talkSection = {
   ]
 };
 
+// Your top 3 work experiences
+
+const workExperiences = {
+  viewExperiences: true, //Set it to true to show workExperiences Section
+  experience: [
+  ]
+};
+
 // Podcast Section
 
 const podcastSection = {
@@ -293,16 +267,27 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  number: "+1 (310) 909-9767",
+  email_address: "kainoakanter@gmail.com"
 };
 
 //Twitter Section
 
 const twitterDetails = {
-
-  userName : "twitter"//Replace "twitter" with your twitter username without @
-
+  userName : "that1calculator"//Replace "twitter" with your twitter username without @
 };
-export { greeting, socialMediaLinks, skillsSection, educationInfo, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
+
+export{ 
+	greeting,
+	socialMediaLinks,
+	skillsSection,
+	educationInfo,
+	techStack,
+	openSource,
+	bigProjects,
+	workExperiences,
+	achievementSection,
+	talkSection,
+	contactInfo,
+	twitterDetails
+};

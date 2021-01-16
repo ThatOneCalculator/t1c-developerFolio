@@ -55,9 +55,9 @@ export default function Profile() {
 if (openSource.showGithubProfile === "true" && !(typeof prof === 'string' || prof instanceof String)){  
     return (
       <Suspense fallback={renderLoader()}>
-        <GithubProfileCard prof={prof} key={prof.id} /> 
-      </Suspense>
-       );
+        <GithubProfileCard prof={prof} key={prof.id} />
+      </Suspense> 
+       )
   } else {
     return <Contact />;
   }

@@ -6,13 +6,18 @@
   font-display: swap;
 }
 @font-face {
-  font-family: 'Montserrat';
-  src: local('Montserrat'), url('./assets/fonts/Montserrat-Regular.ttf') format('woff');
+  font-family: 'Fira Code Regular Nerd Font Complete Windows Compatible';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Fira Code Regular Nerd Font Complete Windows Compatible'), url('./assets/fonts/Fira Code Regular Nerd Font Complete Windows Compatible.ttf') format('woff');
   font-display: swap;
 }
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: 'Fira Code Regular Nerd Font Complete Windows Compatible';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Fira Code Regular Nerd Font Complete Windows Compatible'), url('./assets/fonts/Fira Code Regular Nerd Font Complete Windows Compatible.ttf') format('woff');
+  font-display: swap;
 }
 html,
 body {
@@ -20,10 +25,11 @@ body {
 }
 body {
   margin: 0;
-  font: 19px / 23px Montserrat, "Montserrat", sans-serif;
+  font: 16px / 20px 'Fira Code Regular Nerd Font Complete Windows Compatible', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 /* Media Query */
 @media (max-width: 1380px) {
   html,

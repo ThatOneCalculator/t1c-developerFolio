@@ -32,20 +32,20 @@ export default function Greeting() {
                 {greeting.subTitle}
               </p>
               <SocialMedia />
-              <div className="button-greeting-div">
+              {/* <div className="button-greeting-div">
                 <Button text="Contact me" href="#contact" />
                 <Button
                   text="See my resume"
                   newTab={true}
                   href={greeting.resumeLink}
-                />
-              </div>
+                /> 
+              </div> */}
             </div>
           </div>
           <div className="greeting-image-div">
             <img
-              alt="saad sitting on table"
-              src={require("../../assets/images/manOnTable.svg")}
+              alt="me sitting on table"
+              src="https://cdn.discordapp.com/attachments/671117418189422594/782709530546274335/ezgif-2-e95a3855f630.png"
             ></img>
           </div>
         </div>

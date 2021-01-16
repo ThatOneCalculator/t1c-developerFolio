@@ -42,6 +42,10 @@
   background-color: #fca326;
 }
 
+.discord i {
+  background-color: #7289da;
+}
+
 .google i {
   background-color: #ea4335;
 }
@@ -56,6 +60,18 @@
 
 .stack-overflow i {
   background-color: #f48024;
+}
+
+.twitch i {
+  background-color: #9c59ff;
+}
+
+.topgg i {
+  background-color: #18275c;
+}
+
+.aur i {
+  background-color: #1793d1;
 }
 
 .instagram i {
@@ -75,9 +91,13 @@
   background-color: black;
 }
 
+<link href="//cdn.jsdelivr.net/gh/Lukas-W/font-logos@v0.15/assets/font-logos.css" rel="stylesheet">
+
 /* Media Query */
 @media (max-width: 768px) {
   .social-media-div {
     text-align: center;
   }
 }
+
+

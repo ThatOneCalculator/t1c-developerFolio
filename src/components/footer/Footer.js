@@ -22,7 +22,7 @@ export default function Footer() {
             developerFolio
           </a>.
           	View my source code on{" "}
-          <a href="https://github.com/thatonecalculator/t1c-devfolio">GitHub</a>
+          <a href="https://github.com/ThatOneCalculator/t1c-developerFolio/">GitHub</a>
           . 
           Get the {" "}
           <a href="https://github.com/ThatOneCalculator/t1c.dev-premid-presence">

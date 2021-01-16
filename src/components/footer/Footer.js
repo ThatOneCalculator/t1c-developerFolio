@@ -20,10 +20,14 @@ export default function Footer() {
           , theme by{" "}
           <a href="https://github.com/saadpasta/developerFolio">
             developerFolio
-          </a>. Get the {" "}
+          </a>.
+          	View my source code on{" "}
+          <a href="https://github.com/thatonecalculator/t1c-devfolio">GitHub</a>
+          . 
+          Get the {" "}
           <a href="https://github.com/ThatOneCalculator/t1c.dev-premid-presence">
           	PreMiD presence
-          </a>, because why not?
+          </a>, why not?
         </p>
       </div>
     </Fade>

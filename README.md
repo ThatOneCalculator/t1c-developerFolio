@@ -6,7 +6,3 @@ If you're already here, why not get the [Premid presence](https://github.com/Tha
 
 
 Just go to the main the instructions.
-
-
-
-"Why didn't you fork it normally???" Because GitHub's forking system sucks, and all environments, actions, workflows, etc were carried over. 
